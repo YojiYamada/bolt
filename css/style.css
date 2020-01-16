@@ -1,0 +1,154 @@
+body {
+  min-width: 1100px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+}
+.header__contents {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.header__contents--btn {
+  background-color: #74cfae;
+  text-decoration: none;
+  font-size: 12px;
+  color: #fff;
+  padding: 14px 12px;
+  float: right;
+  transition: all 0.3 ease;
+}
+.header__contents--btn:hover {
+  color: #333;
+}
+
+.main {
+  margin-top: 78px;
+}
+
+.main__inner1 {
+  background-color:	#f2f2f2;
+}
+.main__inner1--contents{
+  padding: 250px 0;
+  text-align: center;
+}
+.main__inner1--contents-title {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+}
+.main__inner1--contents-text {
+  font-size: 30px;
+  color: #c0c0c0;
+  margin-top: 20px;
+}
+
+.main__inner2 {
+  background-color: #74cfae;
+}
+.main__inner2--contents {
+  padding-top: 50px;
+}
+.main__inner2--text,
+.main__inner2--img {
+  display: inline-block;
+}
+.main__inner2--text {
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.main__inner3 {
+  background: #f2f2f2;
+  padding: 60px 0 70px 0;
+}
+.main__inner3--header {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+.main__inner3--img {
+  margin-left: 100px;
+}
+.main__inner3--img:nth-child(1),.main__inner3--img:nth-child(4) {
+  margin-left: 0;
+}
+.main__inner3--textbox {
+  margin-top: 90px;
+}
+.main__inner3--textbox-btn {
+  color: #fff;
+  font-size: 12px;
+  padding: 14px 20px;
+  text-decoration: none;
+  background-color: #74cfae;
+  text-align: center;
+}
+
+.main__inner4 {
+  background: 	#4e4e4e;
+  padding: 70px 0 100px 0;
+  color: #fff;
+}
+.main__inner4--header {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.main__inner4--img {
+  display: inline-block;
+  margin-left: 180px;
+}
+.main__inner4--img:nth-child(2) {
+  margin-left: 0;
+}
+.main__inner4--text {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.main__inner5 {
+  background: 	#f2f2f2;
+  padding: 200px 0;
+  box-sizing: border-box;
+}
+.main__inner5--contents {
+  text-align: center;
+}
+.main__inner5--icon {
+  width: 185px;
+  padding: 20px 0;
+  color: #74cfae;
+  transition: all 0.3 ease;
+}
+.main__inner5--icon:hover {
+  background-color: #fff;
+}
+
+.footer {
+  background: #74cfae;
+  padding: 20px 0 25px 0;
+}
+.footer__text {
+  color: #fff;
+  text-align: right;
+}
